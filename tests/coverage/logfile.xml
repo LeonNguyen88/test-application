@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="10" assertions="14" errors="0" warnings="1" failures="0" skipped="0" time="36.038446">
+    <testsuite name="Unit" tests="1" assertions="0" errors="0" warnings="1" failures="0" skipped="0" time="0.034198">
+      <testsuite name="Tests\Unit\ElasticSearchTest" file="/var/www/html/tests/Unit/ElasticSearchTest.php" tests="1" assertions="0" errors="0" warnings="1" failures="0" skipped="0" time="0.034198">
+        <testcase name="Warning" assertions="0" time="0.034198">
+          <warning type="PHPUnit\Framework\Warning">Warning
+No tests found in class "Tests\Unit\ElasticSearchTest".</warning>
+        </testcase>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature" tests="9" assertions="14" errors="0" warnings="0" failures="0" skipped="0" time="36.004249">
+      <testsuite name="Tests\Feature\BookControllerTest" file="/var/www/html/tests/Feature/BookControllerTest.php" tests="9" assertions="14" errors="0" warnings="0" failures="0" skipped="0" time="36.004249">
+        <testcase name="testRouteIndex" class="Tests\Feature\BookControllerTest" classname="Tests.Feature.BookControllerTest" file="/var/www/html/tests/Feature/BookControllerTest.php" line="31" assertions="1" time="5.992427"/>
+        <testcase name="testStructureIndex" class="Tests\Feature\BookControllerTest" classname="Tests.Feature.BookControllerTest" file="/var/www/html/tests/Feature/BookControllerTest.php" line="42" assertions="5" time="3.184208"/>
+        <testcase name="testCountPagination" class="Tests\Feature\BookControllerTest" classname="Tests.Feature.BookControllerTest" file="/var/www/html/tests/Feature/BookControllerTest.php" line="59" assertions="2" time="3.032437"/>
+        <testcase name="testCountBook" class="Tests\Feature\BookControllerTest" classname="Tests.Feature.BookControllerTest" file="/var/www/html/tests/Feature/BookControllerTest.php" line="70" assertions="1" time="3.090515"/>
+        <testcase name="testStatusIndex" class="Tests\Feature\BookControllerTest" classname="Tests.Feature.BookControllerTest" file="/var/www/html/tests/Feature/BookControllerTest.php" line="81" assertions="1" time="3.430888"/>
+        <testcase name="testArrayBook" class="Tests\Feature\BookControllerTest" classname="Tests.Feature.BookControllerTest" file="/var/www/html/tests/Feature/BookControllerTest.php" line="91" assertions="1" time="3.083952"/>
+        <testcase name="testEmptyQuery" class="Tests\Feature\BookControllerTest" classname="Tests.Feature.BookControllerTest" file="/var/www/html/tests/Feature/BookControllerTest.php" line="103" assertions="1" time="3.053157"/>
+        <testcase name="testCountBookEmptyQuery" class="Tests\Feature\BookControllerTest" classname="Tests.Feature.BookControllerTest" file="/var/www/html/tests/Feature/BookControllerTest.php" line="113" assertions="1" time="3.107217"/>
+        <testcase name="testRouteIndexIncludeQuery" class="Tests\Feature\BookControllerTest" classname="Tests.Feature.BookControllerTest" file="/var/www/html/tests/Feature/BookControllerTest.php" line="120" assertions="1" time="8.029448"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
